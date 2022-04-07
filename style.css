@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(203,199,157,1) 51%, rgba(0,212,255,1) 100%);
+}
+
+.container-father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 12%;
+    width: 1098px;
+    max-height: 544px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.945);
+    border: 20px solid #FFFFFF;
+    box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+.content-son{
+    text-align: left;
+    margin: auto;
+    height: 100%;   
+}
+
+.tittle-price{
+    font-family: "Montserrat";
+    margin-top: 60px;
+}
+
+.symbol-price{
+    font-family: "IBM Plex Sans";
+    position: absolute;
+    margin-top: 33px;
+    font-size: 36px;
+    line-height: 47px;
+}
+
+.price{
+    font-family: "IBM Plex Sans";
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 81px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.first-desc{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+}
+
+.second-desc{
+    font-family: "IBM Plex Sans";
+    margin-top: 27px;
+    height: 80px;
+    width: 230px
+}
+
+.btn{
+    font-family: 'IBM Plex Sans';
+    font-size: 15px;
+    border: none;
+    width: 155px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+#btn1{
+    background: #FC4E8C;
+}
+
+#btn2{
+    background: #09E1EF;
+}
+
+#btn3{
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    /* background-color: DarkBlue;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px DarkBlue;  */
+    transform: scale(1.1);
+    transition: 400ms;
+
+}
